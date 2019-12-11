@@ -4,7 +4,7 @@
 
 [NOAALocations](https://github.com/Zipcoder/DataEngineering.Labs.NOAALocations)
 
-### Exercise 1 
+### Part 1 
 
 Let's continue to explore the data provided by NOAA's climate data api. By using the [web services documentation](https://www.ncdc.noaa.gov/cdo-web/webservices/v2#datasets), we can see that they provide an endpoint which allows us to learn more about the datasets that are available.
 
@@ -30,7 +30,7 @@ By studying the README file we can see that this dataset provides a couple of in
 
 On the next exercise, we will fetch some of the data for this dataset and perform some basic exploration of said data focusing on the fields TMIN and TMAX.
 
-### Exercise 2
+### Part 2
 
 Let's get our hands on some daily summary data for each day in December 2018 for all of New Castle County, Delaware. 
 
@@ -60,12 +60,12 @@ Save the ouput to files in the data/daily_summaries directory:
 
 Take a few minutes to familiarize yourself with this data. 
 
-### Exercise 3
+### Part 3
 
 Yet again we have the need to read json data and convert it to dataframe. Rather than keep repeating ourselves, let's adjust the work we did on the NOAALocations lab and create a *json_helper.py* module.
 
 
-### Exercise 4
+### Part 4
 
 * Open the notebook called *loading_and_graphing_daily_summaries.ipynb*
 * Follow the directions provided in the notebook and complete the cells as directed.
